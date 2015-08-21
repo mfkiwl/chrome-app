@@ -1,6 +1,7 @@
 'use strict';
 
 ChromeAppManager.start();
+/*
 
 // message with events
 var message = ChromeAppManager.postMessage('test', Math.random());
@@ -20,5 +21,10 @@ ChromeAppManager.postMessage('abc', Math.random()).then(null, function (err) {
 
 // message with known type
 ChromeAppManager.postMessage('xyz.123', Math.random()).then(function (data) {
+    console.log(data);
+});
+*/
+
+ChromeAppManager.postMessage('fileSystem.test').then(function (data) {
     console.log(data);
 });

@@ -13,7 +13,8 @@
   "permissions": [
     "webview",
     "serial",
-    "storage"
+    "storage",
+    {"fileSystem": ["directory"]}
   ],
   "sandbox": {
     "pages": [
