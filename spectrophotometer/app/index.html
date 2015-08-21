@@ -3,22 +3,14 @@
 <head>
 </head>
 
+<body style="margin:0;padding:0;overflow:hidden">
 
-<body style="margin:0px;padding:0px;overflow:hidden">
-
-<!--
-<webview src="http://script.epfl.ch/tmp/iframe.html" frameborder="0"
-         style="overflow:hidden; width:1200px; height:800px" id="webview"></webview>
--->
-
-<webview src="http://www.cheminfo.org/flavor/spectrophotometer" frameborder="0"
+<iframe src="./webview.html" frameborder="0"
          style="overflow:hidden; width:1280px; height:720px" id="webview"
-         partition="persist:spectrophotometer"></webview>
+         partition="persist:spectrophotometer"></iframe>
 
-<script src="syncStorage.js"></script>
-<script src="localStorage.js"></script>
-<script src="serialConnection.js"></script>
-<script src="index.js"></script>
+<script src="chrome-app.js"></script>
+<script src="chrome-app-content.js"></script>
 
 </body>
 </html>
