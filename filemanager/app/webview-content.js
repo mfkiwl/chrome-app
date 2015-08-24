@@ -25,6 +25,12 @@ ChromeAppManager.postMessage('xyz.123', Math.random()).then(function (data) {
 });
 */
 
-ChromeAppManager.postMessage('fileSystem.test').then(function (data) {
-    console.log(data);
+ChromeAppManager.postMessage('fileSystem.writeFile', {
+    label: 'test',
+    name: 'myfile.js',
+    data: 'TEST'
+}).then(function (data) {
+    console.log('ok: ', data);
+}, function (err) {
+    console.log('error: ', err);
 });
