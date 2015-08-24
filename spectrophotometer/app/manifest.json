@@ -14,14 +14,6 @@
     "webview",
     "serial",
     "storage",
-    {"fileSystem": ["directory"]}
-  ],
-  "sandbox": {
-    "pages": [
-      "wrap.html"
-    ]
-  }
+    {"fileSystem": ["write", "retainEntries", "directory"]}
+  ]
 }
-
-
-
