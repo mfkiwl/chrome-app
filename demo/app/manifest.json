@@ -1,7 +1,7 @@
 {
   "name": "Cheminfo demo",
   "description": "Examples of communication between the Visualizer and Chrome API",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
   "app": {
     "background": {
