@@ -1,6 +1,8 @@
 'use strict';
+setTimeout(function () {
+    ChromeAppManager.start();
+}, 2600);
 
-ChromeAppManager.start();
 /*
 
 // message with events

@@ -3,8 +3,8 @@ chrome.app.runtime.onLaunched.addListener(function() {
         id: '',
         singleton: true,
         outerBounds: {
-            width: 1280,
-            height: 720
+            width: 1600,
+            height: 1200
         }
     });
 });
