@@ -1,4 +1,4 @@
-var deviceMatchRegexp = /(tty.usbmodem|ttyASM)/;
+var deviceMatchRegexp = /(tty.usbmodem|ttyASM|ttyACM)/;
 
 var connection = new SerialConnection({deviceMatchRegexp:deviceMatchRegexp});
 
